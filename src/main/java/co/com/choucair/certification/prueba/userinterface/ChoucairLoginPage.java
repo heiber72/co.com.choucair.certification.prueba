@@ -1,8 +1,8 @@
 package co.com.choucair.certification.prueba.userinterface;
 
-import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.targets.Target;
+import org.openqa.selenium.By;
 
 public class ChoucairLoginPage extends PageObject {
     public static final Target LOGGIN_BUTTON = Target.the("button that show the form to login")
